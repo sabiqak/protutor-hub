@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #222;
+}
+
+/* NAV */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f3c88;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* PANELS */
+.panel {
+  width: 100%;
+  padding: 80px 20px;
+}
+
+.hero-panel {
+  background: linear-gradient(135deg, #1f3c88, #3f63d3);
+  color: white;
+}
+
+.light-panel {
+  background: #f5f7fb;
+}
+
+.dark-panel {
+  background: #1f3c88;
+}
+
+.cta-panel {
+  background: #f4a261;
+  color: white;
+}
+
+.grey-panel {
+  background: #eef1f7;
+}
+
+/* CONTENT */
+.panel-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* TEXT */
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.light-text {
+  color: white;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* CARDS */
+.info-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dark-card {
+  background: #2f4fa8;
+  color: white;
+}
+
+.info-card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+/* BUTTONS */
+.btn-group {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.primary {
+  background: #f4a261;
+  color: white;
+}
+
+.outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.large {
+  font-size: 18px;
+}
+
+/* IMAGE */
+.image-block img {
+  width: 100%;
+}
+
+/* IMAGES */
+.image-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; /* ensures proper scaling without stretching */
+}
+
+/* Info-card images */
+.info-card img {
+  width: 100px;  /* slightly bigger than before */
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
