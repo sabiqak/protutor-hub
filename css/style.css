@@ -187,3 +187,30 @@ p {
   text-align: center;
   padding: 20px;
 }
+
+.article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.article-content h3 {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.article-content h4 {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.article-content ul {
+  margin: 15px 0 25px 20px;
+}
+
+.article-content hr {
+  margin: 35px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
